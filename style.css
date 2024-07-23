@@ -151,6 +151,8 @@ nav .right span {
 
 .skills-section .text {
     text-align: center;
+    margin-top: 10px;
+    font-weight: 500;
 }
 
 .skills-section .cells {
