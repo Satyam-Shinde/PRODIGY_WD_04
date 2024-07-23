@@ -58,7 +58,7 @@ nav .right span {
     margin-left: 5px;
 }
 
-/* Section : Hero */
+/* Section 1: Hero */
 .hero-section {
     display: flex;
     justify-content: space-between;
@@ -83,7 +83,7 @@ nav .right span {
 }
 
 .hero-section #element{
-    font-size: 35px;
+    font-size: 45px;
     font-weight: bolder;
 }
 
@@ -117,11 +117,12 @@ nav .right span {
     width: 350px;
 }
 
-/* Section: About */
+/* Section 2: About */
 .about-section{
     padding: 0 50px;
     margin-bottom: 100px;
 }
+
 .about-section h2{
     font-size: 35px;
     margin-bottom: 20px;
@@ -137,9 +138,7 @@ nav .right span {
     margin: 0 10px;
 }
 
-
-
-/* Section 2: Skills */
+/* Section 3: Skills */
 .skills-section {
     padding: 0 50px;
     margin-bottom: 100px;
@@ -178,7 +177,7 @@ nav .right span {
     font-size: 18px;
 }
 
-/* Section: Projects */
+/* Section 4: Projects */
 .project-section{
     padding: 0 50px;
     margin-bottom: 100px;
@@ -239,7 +238,7 @@ nav .right span {
     border-radius: 10px;
 }
 
-/* Section 3: Testimony */
+/* Section 5: Testimony */
 .testimony-section {
     padding: 0 50px;
     margin-bottom: 100px;
@@ -284,7 +283,7 @@ nav .right span {
     font-weight: normal;
 }
 
-/* Section 4: Contact */
+/* Section 6: Contact */
 .contact-section {
     padding: 0 50px;
     margin-bottom: 100px;
@@ -304,6 +303,26 @@ nav .right span {
     flex: 3;
 }
 
+.contact-section .contact-links .contact-link{
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-section .contact-links .contact-link .social-icon{
+    width: 350px;
+    padding: 5px 10px;
+    border: 2px solid var(--text-color);
+    border-radius: 15px;
+    transition: .1s;
+}
+.contact-section .contact-links .contact-link .social-icon:hover{
+    color: var(--background-color);
+    background-color: var(--link-color);
+    border: 2px solid var(--link-color);
+}
+
 .contact-section .group form {
     flex: 3;
     display: flex;
@@ -319,6 +338,7 @@ nav .right span {
     margin-bottom: 15px;
     outline: none;
     resize: none;
+    border-radius: 15px;
 }
 
 .contact-section .group form button{
@@ -330,11 +350,13 @@ nav .right span {
     height: 50px;
     cursor: pointer;
     transition: .1s;
+    border-radius: 15px;
 }
 
 .contact-section .group form button:hover{
     filter: brightness(.9);
 }
+
 
 
 
@@ -424,27 +446,15 @@ nav .right span {
     .hero-section {
         padding: 0 20px;
     }
-    /* Section 1: About */
+    /* Section 3: About */
     .about-section {
         padding: 0 20px;
     }
 
-    /* Section 2: Skills */
+    /* Section 3: Skills */
     .skills-section {
         padding: 0 20px;
     }
-    /* Section 2: Projects */
-    .projects-section {
-        padding: 0 20px;
-    }
-    
-
-    .projects-section {
-        padding: 0 20px;
-    }
-
-
-
     .skills-section .cells .cell {
         width: 75px;
     }
@@ -452,14 +462,27 @@ nav .right span {
     .skills-section .cells .cell span {
         display: none;
     }
+    /* Section 4: Projects */
+    .projects-section {
+        padding: 0 20px;
+    }
+    .projects-section {
+        padding: 0 20px;
+    }
 
-    /* Section 3: testimony */
+    /* Section 5: testimony */
+    .testimony-section{
+        padding: 0 20px;
+    }
+
+
+    /* Section 6: Contact */
     .contact-section{
         padding: 0 20px;
     }
-    /* Section 4: Contact */
-    .contact-section{
-        padding: 0 20px;
+
+    .contact-section .contact-links .contact-link{
+        align-items: center;
     }
 }
 
