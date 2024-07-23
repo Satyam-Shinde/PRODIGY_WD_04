@@ -117,6 +117,28 @@ nav .right span {
     width: 350px;
 }
 
+/* Section: About */
+.about-section{
+    padding: 0 50px;
+    margin-bottom: 50px;
+}
+.about-section h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.about-section h4{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.about-section ul li{
+    list-style: none;
+    margin: 0 10px;
+}
+
+
+
 /* Section 2: Skills */
 .skills-section {
     padding: 0 50px;
@@ -154,6 +176,67 @@ nav .right span {
 
 .skills-section .cells .cell span {
     font-size: 18px;
+}
+
+/* Section: Projects */
+.project-section{
+    padding: 0 50px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.project-section h2 {
+    font-size: 35px;
+}
+
+.project-section .card {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    border: 2px solid var(--text-color);
+    margin-top: 30px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.project-section .card .person-details {
+    text-align: center;
+    flex: 2;
+}
+
+.project-section .card .text {
+    align-items: center;
+    flex: 8;
+}
+
+.project-section .card .project-details img {
+    width: 150px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.project-section .card .project-details p {
+    font-weight: 600;
+}
+
+.project-section .card .description .links{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-section .card .description p{
+    margin-top: 10px;
+}
+
+.project-section .card .description .links a{
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: 2px solid var(--link-color);
+    
+    border-radius: 10px;
 }
 
 /* Section 3: Testimony */
@@ -291,6 +374,15 @@ nav .right span {
         width: 250px;
     }
 
+    /* Section 3: Projects */
+    .project-section {
+        text-align: center;
+    }
+
+    .project-section .card {
+        flex-direction: column;
+        gap: 20px;
+    }
     /* Section 3: Testimony */
     .testimony-section {
         text-align: center;
@@ -332,11 +424,26 @@ nav .right span {
     .hero-section {
         padding: 0 20px;
     }
+    /* Section 1: About */
+    .about-section {
+        padding: 0 20px;
+    }
 
     /* Section 2: Skills */
     .skills-section {
         padding: 0 20px;
     }
+    /* Section 2: Projects */
+    .projects-section {
+        padding: 0 20px;
+    }
+    
+
+    .projects-section {
+        padding: 0 20px;
+    }
+
+
 
     .skills-section .cells .cell {
         width: 75px;
