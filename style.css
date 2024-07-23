@@ -200,12 +200,12 @@ nav .right span {
     border-radius: 10px;
 }
 
-.project-section .card .person-details {
+.project-section .card .project-details {
     text-align: center;
     flex: 2;
 }
 
-.project-section .card .text {
+.project-section .card .description {
     align-items: center;
     flex: 8;
 }
@@ -468,8 +468,13 @@ nav .right span {
     .projects-section {
         padding: 0 20px;
     }
-    .projects-section {
-        padding: 0 20px;
+    .project-section .card .description p{
+        display: none;
+    }
+
+    .project-section .card{
+        row-gap: 0;
+        max-height: 350px;
     }
 
     /* Section 5: testimony */
